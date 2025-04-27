@@ -1,25 +1,28 @@
 # XRecon 🕷️
 
-XRecon is an open-source web reconnaissance and endpoint discovery tool.  
-It crawls websites, extracts endpoints, API routes, forms, hidden inputs, and JavaScript files – then organizes everything cleanly for manual and automated security testing.
+**XRecon** is a powerful, modular, and lightweight web reconnaissance tool designed to automate the initial information gathering phase during penetration testing.  
+It crawls web applications, extracts endpoints, forms, hidden inputs, and JavaScript files to help you quickly map the attack surface.
+
+> 🚀 Built with love by **Amel Žiga**.
 
 ---
 
 ## ✨ Features
 
-- Crawl full websites
-- Extract all internal and external URLs
-- Parse and save HTML forms and hidden inputs
-- Download JavaScript files and extract API endpoints
-- Clean and sort outputs (remove duplicates, normalize URLs)
-- Organized outputs into `outputs/` folder
+- Full HTML parsing (links, forms, hidden inputs, scripts)
+- JavaScript endpoint extraction
+- Clean URL normalization and duplicate filtering
+- Organized output in structured files
+- Easy to extend and customize
+- Minimalistic and blazing fast
 
 ---
 
-## 🚀 Usage
+## 🛠️ Installation
 
-### 1. Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/Amel1308/xrecon.git
 cd xrecon
+
