@@ -36,7 +36,7 @@ Run with manual target input:
 
 python3 xrecon.py
 
-    You will be prompted to enter a target domain manually.
+You will be prompted to enter a target domain manually.
 
 Example:
 
