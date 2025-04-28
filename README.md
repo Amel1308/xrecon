@@ -48,30 +48,6 @@ python3 xrecon.py -d terget_url.com
 
     The scan will start immediately without manual input.
 
-📁 Output Structure
-
-After scanning, the results will be organized inside the outputs/ directory:
-
-outputs/
-├── links.txt            # Extracted internal and external links
-├── forms.txt            # Extracted form actions
-├── hidden_inputs.txt    # Hidden form fields
-├── scripts/             # Downloaded JavaScript files
-│   └── *.js
-├── api_endpoints.txt    # Extracted endpoints from JavaScript
-└── final_summary.txt    # Cleaned and merged results
-
-📷 Example Terminal Output
-
-🕷️  XRecon
-Created by Amel Žiga
-
-[+] Starting reconnaissance for: yahoo.com
-[+] Downloading HTML content...
-[+] Parsing links, forms, and scripts...
-[+] Saving results to outputs/
-[+] Downloading and analyzing JavaScript files...
-[+] Reconnaissance completed successfully.
 
 📚 Contributing
 
