@@ -53,6 +53,8 @@ The scan will start immediately without manual input.
 
 We welcome contributions!
 Feel free to open issues, suggest new features, or create pull requests.
+
+
 📄 License
 
 This project is licensed under the MIT License.
