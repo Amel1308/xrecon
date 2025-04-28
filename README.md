@@ -24,17 +24,17 @@ It crawls web applications, extracts endpoints, forms, hidden inputs, and JavaSc
 
 Clone the repository:
 
-git clone https://github.com/Amel1308/xrecon.git
-cd xrecon
+    git clone https://github.com/Amel1308/xrecon.git
+    cd xrecon
 
 Install the required libraries:
 
-pip install requests beautifulsoup4 argparse tldextract
+    pip install requests beautifulsoup4 argparse tldextract
 
 ⚡ Usage
 Run with manual target input:
 
-python3 xrecon.py
+    python3 xrecon.py
 
 You will be prompted to enter a target domain manually.
 
@@ -44,9 +44,9 @@ Enter target domain: target.com
 
 Run by passing the target directly via command-line:
 
-python3 xrecon.py -d terget_url.com
+    python3 xrecon.py -d terget_url.com
 
-    The scan will start immediately without manual input.
+The scan will start immediately without manual input.
 
 
 📚 Contributing
